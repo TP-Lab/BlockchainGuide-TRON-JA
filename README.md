@@ -660,7 +660,7 @@ Medium: https://medium.com/tron-foundation
 
 ##### 2.著者の同意を得て、作品の非営利的な引用が許可されています。著者の作品を尊重するように、出典と著者を示す必要があります。
 
-##### 3.ソース: https://tp-lab.github.io/BlockchainGuide-TRON-EN/; 著者: TokenPocket.
+##### 3.ソース: https://github.tokenpocket.pro/BlockchainGuide-TRON-JA/#/; 著者: TokenPocket.
 
 ##### 4.無断転載を固く禁じます。違法な再投稿については、TokenPocketおよび作成者/翻訳者が法的措置を追求する権利を留保します。
 
