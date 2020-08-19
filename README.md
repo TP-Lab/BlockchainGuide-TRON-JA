@@ -1,384 +1,386 @@
-# The Past, Present and Future of TRON Wallet
+# TRONウォレットの過去、現在と未来
 
 
-## Preface
+## 前書き
 
-Blockchain and wallets have been constantly evolving for over a decade, and their history can be divided into three stages. In the Blockchain 1.0 era, users needed wallets for full node mining and BTC asset management. In the ETH 2.0 era, blockchain wallets are needed for multiple assets management and smart contracts interface. During this stage, wallets like MetaMask that don’t require full node synchronization became popular among users. In the Blockchain 3.0 era, as public chains continued to evolve, wallets correspondingly became more complex and were equipped with more features than ever before . Wallets during this time are not only used to store and manage assets, but served more as a vital service platform for the public chain’s ecosystem. As use cases for blockchain grew, mobile wallets became users’ first choice. Therefore, more and more public chain wallets sprang up like mushrooms, among which TRON wallet is the one that truly stands out. 
+ブロックチェーンとウォレットは10年以上にわたって常に進化しており、その歴史は3つの段階に分けることができます。ブロックチェーン1.0時代では、ユーザーはフルノードマイニングとBTCアセット管理のためにウォレットを必要としていました。ETH 2.0時代では、複数の資産管理とスマートコントラクトインターフェースにブロックチェーンウォレットが必要です。この段階で、ノード全体の同期を必要としないMetaMaskのようなウォレットがユーザーの間で人気になりました。ブロックチェーン3.0の時代には、パブリックチェーンが進化し続けると、それに応じてウォレットはより複雑になり、かつてないほど多くの機能が装備されました。この期間中のウォレットは、アセットの保存と管理に使用されるだけでなく、パブリックチェーンのエコシステムにとって重要なサービスプラットフォームとしての役割も果たしました。ブロックチェーンのユースケースが拡大するにつれて、モバイルウォレットがユーザーの最初の選択肢となりました。そのため、ますます多くの公的チェーンウォレットがキノコのように出現し、その中でTRONウォレットが本当に際立っています。
 
-TRON has always been a popular public chain. With the continuous optimization and improvement of its main network, TRON’s TPS has reached the mark of 10,000, and its public chain performance is also stronger than before, supporting more and more use cases. Through free access and user incentive programs, TRON has invigorated its community. In the past two years, TRON boasted rapid growth and attracted a great number of users and developers through its low cost and solid performance. In terms of DApp user number and transaction volume, TRON has always been in the top 3 among all the public chains. 
+　TRONは常に人気のあるパブリックチェーンです。メインネットワークの継続的な最適化と改善により、TRONのTPSは10,000のマークに達し、パブリックチェーンのパフォーマンスも以前よりも強力になり、より多くのユースケースをサポートしています。無料アクセスとユーザーインセンティブプログラムを通じて、TRONはコミュニティを活性化しました。過去2年間で、TRONは急速な成長を誇り、その低コストと確かなパフォーマンスにより、多数のユーザーと開発者を魅了しました。DAppユーザー数とトランザクション量の点では、TRONはすべてのパブリックチェーンの中で常にトップ3にランクされています。
 
-As a gateway to the TRON ecosystem, TRON wallet is an essential component to TRON public chain. Until this day, TRON never stopped optimizing its features and performance for better user experience. TRON wallets used to provide only basic functionalities including permission management, funds transfer, and voting. But now, they include complex features like fiat exchange, flash swap, and decentralized exchange etc.. TRON wallets also allow users to enjoy various DApps, mining, DeFi, Staking, and other value-added services. With TRON wallets, users are blessed with a diverse, ever-evolving ecosystem.
-
-
+　TRONエコシステムへのゲートウェイとして、TRONウォレットはTRONパブリックチェーンに不可欠なコンポーネントです。この日まで、TRONはユーザーエクスペリエンスを向上させるために、その機能とパフォーマンスの最適化をやめませんでした。TRONウォレットは、許可管理、資金移動、投票などの基本機能のみを提供するために使用されていました。しかし、今では、フィアット交換、フラッシュスワップ、分散型交換などの複雑な機能が含まれています。TRONウォレットでは、さまざまなDApp、マイニング、Defi、ステーキング、その他の付加価値サービスも利用できます。TRONウォレットを使用すると、ユーザーは多様で進化し続けるエコシステムに恵まれます。
 
 
 
-## TRON Account and Wallet
+## TRON アカウントとウォレット
 
-### Create a TRON Wallet for Free
+### 無料なTRONウォレットを作成しましょう
 
-Users can sign up free of charge with a Tron account,  a string of 34 letters and numbers. Different from customized account names for EOS and IOST, Tron will generate a random account for users. 
+ユーザーは、34の文字と数字からなるTronアカウントで無料でサインアップできます。EOSとIOSTのカスタマイズされたアカウント名とは異なり、Tronはユーザー用にランダムなアカウントを生成します。
 
-When creating an account, users will only have to set the wallet name and log-in password, and write down the private key. Simple as that. 
+　アカウントを作成するとき、ユーザーはウォレット名とログインパスワードを設定し、秘密鍵を書き留めるだけで済みます。
 
-**A new account needs to be activated before using. To activate a new account, the owner needs to transfer any number of TRX into it.
-**
 
 ![钱包类别 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597392323714.png "钱包类别")
-<center>Tron wallet creation page in TokenPocket</center>
+<center>TokenPocketでのTronウォレット作成ページ　</center>
 
-### Private Key Importation
+使用する前に、新しいアカウントをアクティブにする必要があります。新しいアカウントをアクティブにするには、所有者は任意の数のTRXをそのアカウントに転送する必要があります。
 
-If the user already has a TRON wallet, he or she can add the new one through the "private key import" in the TP wallet. The wallet can be added either through entering the private key or scanning the QR code. 
+### 秘密鍵インポーテーション
+
+ユーザーがすでにTRONウォレットを持っている場合は、TPウォレットの「秘密鍵のインポート」を通じて新しいウォレットを追加できます。ウォレットは、秘密鍵を入力するか、QRコードをスキャンして追加できます。
 
 ![钱包类别 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394456533.png "钱包类别")
 
 
-### Freezing & Unfreezing of Bandwidth Points and Energy 
+### 帯域幅ポイントとエネルギーの凍結（フリーズ）& 解凍（アンフリーズ）
 
-**Bandwidth Points**
+**帯域幅ポイント**
 
-Bandwidth Points (BP) is the number of bytes that can be used by an account to conduct transactions. For every 24 hours, TRON network grants every account 5000 complimentary Bandwidth Points, and doing extra transactions will require freezing TRX  to generate additional bandwidth points. Of course, users without bandwidth can still access to all the features. They system will consume a certain number of TRX as handling fees to make sure the account functions normally. Unactivated new TRON accounts will need other addresses to transfer any amount of TRX into them. Then the user will be able to view his/her current energy and bandwidth points on the resource page.	
+　帯域幅ポイント（BP）は、アカウントがトランザクションを実行するために使用できるバイト数です。24時間ごとに、TRONネットワークはすべてのアカウントに5000の無料の帯域幅ポイントを付与します。追加のトランザクションを実行するには、追加の帯域幅ポイントを生成するためにTRXを凍結する必要があります。もちろん、帯域幅のないユーザーは引き続きすべての機能にアクセスできます。それらのシステムは、アカウントが正常に機能することを確認するための手数料として、一定数のTRXを消費します。有効化されていない新しいTRONアカウントには、TRXをいくらでも転送するために他のアドレスが必要になります。その後、ユーザーはリソースページで現在のエネルギーと帯域幅のポイントを確認できます。	
 
-**Energy**
+**エネルギー**
 
-Energy is the resource consumed by TRON Network’s CPU. Like bandwidth, it can be obtained through freezing TRXs. However, there won’t be free Energy distributed to each account by TRON. Users will consume Energy when using DApps. Like BP, Energy consumption can also be paid in TRX directly. 
+エネルギーは、TRONネットワークのCPUによって消費されるリソースです。帯域幅と同様に、TRXをフリーズして取得できます。ただし、TRONが各アカウントに配布する無料のエネルギーはありません。DAppを使用すると、ユーザーはエネルギーを消費します。BPと同様に、エネルギー消費もTRXで直接支払うことができます。
 
 
-**Freezing TRON**
+**TRONフリーズ（凍結）**
 
-BP and Energy can be obtained through freezing TRX, and they can also be delegated to other addresses. In this situation, the delegating account owns the frozen TRX and the corresponding votes while the delegated account is entitled to the resources gained. Like the common form of freezing, the delegated resources will be frozen for three days. 
+BPとエネルギーは、TRXをフリーズすることで取得でき、他のアドレスに委任することもできます。この状況では、委任されたアカウントは獲得したリソースを利用できる一方で、委任アカウントは凍結されたTRXと対応する投票を所有します。一般的な凍結の形式と同様に、委任されたリソースは3日間凍結されます。 
+
 ![钱包类别 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394474246.png "钱包类别")
 
-**TRON Unfreezing**
+**TRON アンフリーズ（解凍）**
 
-Tokens can be unfrozen three days after freezing. Upon unfreezing, the corresponding resources will be removed and the unfrozen TRX can be traded. Please note that once the TRX is unfrozen, the corresponding TRON Power will be deducted, meaning that the votes for a certain node will be removed.
-
-
-## TRX and Wallet
-
-### TRX Token
-
-#### TRX Token Issuance 
-
-TronIX, known as TRX,  is a MainNet token based on the Tron Protocol issued by TRON Foundation.
-
-TRX is the basic unit of accounts on the Tron blockchain. The value of all other tokens derives from that of Tron. TRX is also a natural medium currency for all TRC-based tokens. TRX connects the entire Tron ecosystem, with abundant application scenarios that power transactions and applications on the chain.
+トークンは凍結後3日で解凍できます。凍結を解除すると、対応するリソースが削除され、凍結されていないTRXを取引できます。TRXが解凍されると、対応するTRONパワーが差し引かれることに注意してください。これは、特定のノードの投票が削除されることを意味します。
 
 
-Every time a super representative produces a block, it will be rewarded 16 TRX. The 27 super representatives take turns to produce blocks every 3 seconds. The annual block producing reward is 168,192,000 TRX in total.
+## TRX とウォレット
 
-Every time a super representative produces a block, the 127 super representatives and partners will share 160 TRX proportional to the votes they get. That is 1152000 TRX in every 6 hours, and 1,681,920,000 TRX annually. After commission is deducted, voting rewards received by super representatives and partners will be distributed to general users proportional to the votes they cast.
+### TRX トークン
 
-TRX can be used for voting, deploying smart contracts, etc. Users do not have to pay service fee for TRX transfer, as a certain amount of TRX will be burned according to the bandwidth consumed.
+#### TRX トークン保険 
 
-#### How to Get TRX? 
+　TRXとして知られるTronIXは、TRON Foundationによって発行されたTronプロトコルに基づくメインネットトークンです。
 
-There are three ways to get TRX: Token-to-token Flash Swap, purchase with fiat currencies, and through exchanges. 
+　TRXは、Tronブロックチェーンのアカウントの基本単位です。他のすべてのトークンの値は、TRONの値から派生します。TRXは、すべてのTRCベースのトークンにとって自然な中通貨でもあります。TRXは、Tronエコシステム全体を、チェーン上のトランザクションとアプリケーションを強化する豊富なアプリケーションシナリオと接続します。
 
-**Get TRX from Exchanges**
+　スーパー担当者がブロックを作成するたびに、16 TRXが報酬されます。27人のスーパー代表が交代で3秒ごとにブロックを作成します。報酬を生み出す年間ブロックは合計で168,192,000 TRXです。
 
-As a mainstream chain token, TRX is now supported by nearly all major exchanges, such as Binance, Huobi, OKEx.
+　スーパー代表者がブロックを作成するたびに、127人のスーパー代表者とパートナーは、得票に比例して160 TRXを共有します。これは、6時間ごとに1152000 TRXで、年間1,681,920,000 TRXです。手数料が差し引かれた後、スーパーの代表者とパートナーが受け取った投票報酬は、彼らが投じた投票に比例して一般ユーザーに配布されます。
 
-**Flash Swap**
+　TRXは、投票、スマートコントラクトの展開などに使用できます。消費された帯域幅に応じて一定量のTRXが消費されるため、ユーザーはTRX転送のサービス料金を支払う必要がありません。
 
-Flash Swap enables users to exchange other tokens for TRX. Unlike the orderbook model adopted by most exchanges, Flash Swap utilizes a ‘bank’model where token swap can be done in seconds.
+
+#### TRXをどのように取得しますか?  
+
+　TRXを取得するには、トークンからトークンへのフラッシュスワップ、法定通貨での購入、および取引所経由の3つの方法があります。
+
+**取引所からTRXを取得します**
+
+　主流のチェーントークンとして、TRXはBinance、Huobi、OKExなどのほぼすべての主要な取引所でサポートされています。
+
+**フラッシュスワップ（Flash Swap）**
+
+　フラッシュスワップを使用すると、ユーザーは他のトークンをTRXに交換できます。ほとんどの取引所で採用されているオーダーブックモデルとは異なり、フラッシュスワップはトークンの交換を数秒で実行できる「銀行（bank）」モデルを利用しています。
+
 ![钱包类别 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394509499.png "钱包类别")
 
-**Purchase with Fiat Currencies**
+**法定通貨での購入**
 
-Users can purchase TRX with fiat money in TokenPocket. The TRX will be directly transferred into the Tron wallet after purchase. 
+　ユーザーは、TokenPocketで法定金額のTRXを購入できます。購入後、TRXはTronウォレットに直接転送されます。 
 
 ![钱包类别 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394520360.png "钱包类别")
 
-### Other Tokens on TRON 
+### TRONの他のトークン 
 
-TRON network supports two types of token: TRC-20 token issued by smart contract, and TRC-10 token issued by system contract. 
+　TRONネットワークは、2種類のトークンをサポートしています。スマートコントラクトによって発行されるTRC-20トークンと、システムコントラクトによって発行されるTRC-10トークンです。
 
-TRC-10 is a technical token standard supported by the Tron blockchain natively without the Tron Virtual Machine (TVM). Every account is capable of issuing tokens at the expense of 1024 TRX. Users can lock their tokens up separately. To issue tokens, the issuer needs to specify a token name, total capitalization, the exchange rate to TRX, circulation duration, description, website, maximum bandwidth points consumption per account, total bandwidth points consumption, and token freezing.
+　TRC-10は、Tron Virtual Machine（TVM）を使用せずにTronブロックチェーンでネイティブにサポートされている技術的なトークン標準です。すべてのアカウントは、1024 TRXを消費してトークンを発行できます。ユーザーはトークンを個別にロックできます。トークンを発行するには、発行者はトークン名、総資本、TRXへの為替レート、流通期間、説明、Webサイト、　アカウントごとの最大帯域幅ポイントの消費、合計帯域幅ポイントの消費、およびトークンの凍結を指定する必要があります。
 
-TRC‌-20 is a technical contract standard on the Tron blockchain for issuing tokens, and contracts that comply with the standard are deemed TRC-20 contracts. Thus the standard shows what functions and events are defined in a certain TRC-20 contract, which facilitates the implementation of TRC-20 token exchanges on wallets and exchanges
-
-Currently, most TRON wallets, like TP Wallet and TronLink, support TRC-10 and TRC-20 protocols. 
+　TRC-20は、トークンを発行するためのTronブロックチェーンの技術契約標準であり、標準に準拠する契約はTRC-20契約と見なされます。したがって、標準は、特定のTRC-20コントラクトで定義されている関数とイベントを示し、ウォレットと取引でのTRC-20トークン交換の実装を容易にします。現在、TP WalletやTronLinkなどのほとんどのTRONウォレットは、TRC-10とTRC-20プロトコルをサポートしています。
 
 
 #### TRON-USDT
 
-TRC20-USDT is the USD-pegged stablecoin issued by Tether on the TRON network. Its issuance, holding and transfer on Tron will be completed via smart contract, with a completely free and transparent process, zero transfer fee, and instant delivery. It also enables interoperability with Tron-based protocols and Decentralised Applications (DApps) while allowing users to transact and exchange fiat pegged currencies across the TRON Network.
+TRC20-USDTは、TRONネットワーク上でTetherによって発行されたUSDペッグのステーブルコインです。Tronでのその発行、保持、および転送は、完全に無料で透過的なプロセス、転送手数料なし、即時配信で、スマートコントラクトを介して完了します。また、Tronベースのプロトコルが分散アプリケーション（DApp）との相互運用性を可能にし、ユーザーがTRONネットワーク全体でフィアットペッグ通貨を取引と交換できるようにします。
 
 ![钱包类别 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394543776.png "钱包类别")
 
-In terms of transaction fee, TRC20-USDT can offer free transactions when an account has enough energy. According to major exchanges, USDT based on Omni protocol has the highest withdrawal fee, costing users 4 to 10 dollars for one transaction, whereas ERC-20 USDT requires a transaction fee of 1 to 5 dollars. In comparison, TRC-20 needs no transaction fee. 
+　取引手数料に関しては、TRC20-USDTは、アカウントに十分なエネルギーがある場合に無料の取引を提供できます。主要な取引所によると、Omniプロトコルに基づくUSDTは引き出し料金が最も高く、1回のトランザクションでユーザーに4〜10ドルかかりますが、ERC-20 USDTには1〜5ドルのトランザクション料金が必要です。対照的に、TRC-20は取引手数料が不要です。
 
-In terms of the confirmation speed of transactions, TRC-20 USDT has the advantage of the third-gen public chains. TPS of TRON network reaches tens of thousands, and only takes seconds to confirm a transaction, way better than Omni (taking minutes to days to confirm one transaction) and ERC20 (taking minutes to hours). Fast confirmation can meet users’ various needs, avoid network congestion, and protect users’ interests. 
+取引の確認速度の点では、TRC-20 USDTは第三世代のパブリックチェーンの優位性を持っています。 TRONネットワークのTPSは数万に達し、トランザクションの確認に数秒しかかかりません。これは、Omni（1つのトランザクションの確認に数分から数日かかる）やERC20（数分から数時間かかる）よりはるかに優れています。迅速な確認により、ユーザーのさまざまなニーズを満たし、ネットワークの渋滞を回避し、ユーザーの利益を保護できます。
 
- Thanks to its advantages, TRON-USDT has attracted a huge number of users and is now supported by multiple exchanges, such as Binance, Huobi, Okex, and KuCoin.
+　 その利点のおかげで、TRON-USDTは膨大な数のユーザーを魅了し、現在はBinance、Huobi、Okex、KuCoinなどの複数の取引所でサポートされています。
 
-TokenPocket fully supports TRON-USDT, where users can swap between TRON-USDT and USDT on other protocols, or other tokens. Users can also deposit, transfer, and purchase USDT in TP centralized wallet, and make transfers, receive payment and check code details in TP decentralized wallet.  
+　TokenPocketはTRON-USDTを完全にサポートしており、ユーザーは他のプロトコルまたは他のトークンでTRON-USDTとUSDTを交換できます。ユーザーは、TP集中型ウォレットでUSDTを入金、転送、購入したり、TP分散型ウォレットで転送を行ったり、支払いを受け取ったり、コードの詳細を確認したりすることもできます。
+ 
 
-For more TRC-20 USDT information：https://tron.network/usdt。
+　TRC-20 USDTの詳細については：https://tron.network/usdt。
 
 ![钱包类别 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394556885.png "钱包类别")
 
-#### TRON and Stablecoin USDJ
+#### TRONとステーブルコインUSDJ
 
-USDJ is a new currency generated through decentralized smart contracts on the TRON network. Anyone can pledge TRX as collateral to generate USDJ. USDJ enters into free circulation as any other cryptocurrency does once generated. It is pegged to the US dollar through Collateralized Debt Positions (CDPs) and autonomous feedback mechanisms.
+　USDJは、TRONネットワーク上の分散スマートコントラクトを通じて生成される新しい通貨です。誰でもUSDJを生み出す担保としてTRXを誓約することができます。USDJは、他の暗号通貨が一度生成されると、自由流通に入ります。担保付債務ポジション（CDP）と自律的フィードバックメカニズムを通じて米ドルに固定されています。
 
 ![钱包类别 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394570415.png "钱包类别")
 
-JUST is a decentralized lending platform that adopts two token systems: USDJ and JST. USDJ, pegged to USD at 1:1, can be generated by collateralizing TRX in the CDP portal of JUST. JST is used for interest payment, platform maintenance, network governance through voting and other activities on JUST.
+　JUSTは、USDJとJSTの2つのトークンシステムを採用した分散型貸出プラットフォームです。1：1でUSDにペッグされたUSDJは、JUSTのCDPポータルでTRXを担保することによって生成できます。JSTは、利息の支払い、プラットフォームのメンテナンス、投票などのJUSTでのネットワークガバナンスに使用されます。
 
 ![钱包类别 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394582749.png "钱包类别")
 
-JUST-DeFi is supported by TokenPocket, where users can get USDJ by collateralizing TRX. 
+　JUST-DeFiはTokenPocketでサポートされており、ユーザーはTRXを担保としてUSDJを取得できます。
 
 
-#### TRON and BTT
+#### TRONと BTT
 
-BitTorrent is a pioneering distributed communication protocol invented by Bram Cohen in 2001. As a peer-to-peer protocol, it facilitates the transfer of large, highly demanded files, eliminating the need for a trusted central server. 
+　BitTorrentは、2001年にBram Cohenによって発明された先駆的な分散型通信プロトコルです。ピアツーピアプロトコルとして、大規模で要求の高いファイルの転送を容易にし、信頼できる中央サーバーの必要性を排除します。
 
-BitTorrent Token (BTT) is a TRON TRC-10 cryptographic token introduced by BitTorrent Inc. BTT acts as a general purpose mechanism for transacting in computing resources shared between BitTorrent clients and a liquid market of service requesters and service providers. BTT is the unit which denominates transactions for the provision of services in the BTT-enabled BitTorrent ecosystem. It is made available as a divisible token, allowing for granular pricing on the services and requests in the liquid market.
+　BitTorrent Token（BTT）は、BitTorrent Inc.によって導入されたTRON TRC-10暗号トークンです。BTTは、BitTorrentクライアントと、サービスリクエスターおよびサービスプロバイダーの流動市場の間で共有されるコンピューティングリソースで取引するための汎用メカニズムとして機能します。 BTTは、BTT対応のBitTorrentエコシステムでサービスを提供するためのトランザクションを表す単位です。それは分割可能なトークンとして利用可能になり、流動性のある市場でのサービスとリクエストのきめ細かい価格設定を可能にします。
 
-What can BTT do?：
-（1）Run with token wallets and bidding engines to allow users to give or accept a price.
-（2）Users can buy and download content from creators with BTT.
-（3）Users can reward performers with BTT during the livestreaming.
-（4）BTT can be used for fundraising where smart contracts can be used to host project funds.
-（5）Pay BTT for paid services like storage, computing, resource provision, and content distribution. 
+BTTは何ができる?
+1.トークンウォレットと入札エンジンを使用して実行し、ユーザーが価格を提示または承認できるようにします。
+2.ユーザーは、BTTを使用してクリエイターからコンテンツを購入とダウンロードできます。
+3.ユーザーは、ライブストリーミング中にBTTでパフォーマーに報酬を与えることができます。
+4. BTTは、スマートコントラクトを使用してプロジェクトの資金を集めることができる資金調達に使用できます。
+5.ストレージ、コンピューティング、リソース提供、コンテンツ配信などの有料サービスにBTTを支払います。
 
 
-DLive is the largest live streaming media community on blockchain supported by BitTorrent and Tron Foundation, where users can explore games and channels and gain rewards by watching content on the platform.
+　DLiveは、BitTorrentとTron Foundationによってサポートされているブロックチェーン上の最大のライブストリーミングメディアコミュニティであり、ユーザーはゲームやチャンネルを利用し、プラットフォーム上のコンテンツを視聴することで報酬を得ることができます。
 
-25% of the daily donation and subscription revenue of DLive is used as BTT staking rewards, which is unique to DLive. This feature is to incentivize people to participate in the development of the platform.
+　DLiveの毎日の寄付とサブスクリプションの収益の25％は、DLiveに固有のBTTステーキング報酬として使用されます。この機能は、プラットフォームの開発に参加するように人々にインセンティブを与えることです。
 
-Users can enter DLive and gain BTT staking rewards through TokenPocket. 
+ユーザーはDLiveに入り、TokenPocketを通じてBTTステーキング報酬を獲得できます。
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394597947.png "节点钱包")
 
-On DLive BTT staking page, click “Stake In”to stake BTT and click “Claim Reward” to receive your dividend.
+　DLive BTTステーキングページで、[Stake In]をクリックしてBTTをステーキングし、[Claim Reward]をクリックして配当金を受け取ります。
 
-#### TRON NFT Token
+#### TRON NFTトークン
 
-TVM (TRON) is almost completely compatible with EVM (Ethereum) with certain expansion focused on TRON’s unique features. Hence, NFT standards like ERC777 can be seamlessly migrated to Tron. 
+　TVM（TRON）はEVM（イーサリアム）とほぼ完全に互換性があり、TRONのユニークな機能に重点を置いた拡張が行われています。したがって、ERC777のようなNFT標準をシームレスにTronに移行できます。
 
-### Token Issuance on TRON
+### TRONでのトークン発行
 
-Developers can issue a TRC-10 token through calling the createassetissue interface or a TRC-20 token through TRC-20 contract deployment to TRON network. 
+　開発者は、createassetissueインターフェースを呼び出すことでTRC-10トークンを発行したり、TRONネットワークへのTRC-20コントラクト配備を通じてTRC-20トークンを発行したりできます。 
 
-### TRON-based Tokens Trading Platforms
+### TRONベーストークンの取引プラットフォーム
 
-Tokens based on Tron can be traded in Tron’s decentralized exchanges. Among all decentralized exchanges on TRON, Poloni DEX, TronTrade, Nexdex-Tron are three major ones. Users can enter these dexs through decentralized TRON wallets, like TokenPocket. 
+　Tronに基づくトークンは、Tronの分散型取引所で取引できます。TRON上のすべての分散型取引所の中で、Poloni DEX、TronTrade、Nexdex-Tronは3つの主要な取引所です。ユーザーは、TokenPocketなどの分散型TRONウォレットを通じてこれらのdexに入ることができます。
 
 （1）Poloni DEX
-PoloniDex is a Tron-based decentralized trading platform under Poloniex. Established in 2014, Poloniex is a global leading digital asset trading platform registered in Seychelles. Since Poloniex was founded, its safe and efficient services have been recognized by users, and its real transaction volume has long been ranked among the top 3 in the world. The original TrollBox system allows users to get a more interesting trading experience. The vision of Poloniex is to reconstruct the global trust system, let transactions reach every corner, liberate value, and make value flow freely.
+
+PoloniDexは、TronベースのPoloniexに基づく分散取引プラットフォームです。 2014年に設立されたPoloniexは、セイシェルで登録されている世界をリードするデジタル資産取引プラットフォームです。Poloniexの設立以来、その安全で効率的なサービスはユーザーから認められており、その実際の取引量は長い間、世界のトップ3にランクされています。オリジナルのTrollBoxシステムにより、ユーザーはより興味深い取引体験を得ることができます。Poloniexのビジョンは、グローバルな信頼システムを再構築し、トランザクションを隅々まで到達させ、価値を解放し、価値の流れを自由にすることです。
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394612741.png "节点钱包")
 
 （2）TronTrade
-Trontrade is a decentralized trading platform based on Tron, where you can easily buy and sell various TRC10 and TRC20 cryptocurrencies. TronTrade's goal is to become the safest, most user-friendly and most reliable decentralized exchange for TRC10 and TRC20 tokens.
+　Trontradeは、さまざまなTRC10とTRC20暗号通貨を簡単に売買できるTronベースの分散型取引プラットフォームです。TronTradeの目標は、TRC10とTRC20トークンの最も安全で、ユーザーフレンドリーで信頼性の高い分散型交換になることです。
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394626161.png "节点钱包")
 
-（3）Newdex-Tron: the world's leading decentralized exchange
-Newdex was established on August 8, 2018 and first released on the EOS public chain. In August 2019, apart from EOS public chain, Newdex began to support the TRON public chain. Newdex is dedicated to building a multi-chain and cross chain decentralized trading platform.  
+（3）Newdex-Tron: 世界をリードする分散型取引プラットフォーム
+
+　Newdexは2018年8月8日に設立され、EOSパブリックチェーンで最初にリリースされました。2019年8月、EOSパブリックチェーンとは別に、NewdexはTRONパブリックチェーンのサポートを開始しました。Newdexは、マルチチェーンとクロスチェーン分散型取引プラットフォームの構築に取り組んでいます。  
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597377450795.png "节点钱包")
 
-## TRON Wallet Functionalities
+## TRONウォレットの機能
 
-### TRX Transfer
+### TRX送金
 
-The most basic functionality of a TRON wallet is to transfer and receive tokens. Normally, a transaction doesn’t cost any fee, but will consume BP (bandwidth resource), which can be generated by freezing TRX.
+　TRONウォレットの最も基本的な機能は、トークンの送金と受信です。通常、トランザクションには料金はかかりませんが、BP（帯域幅リソース）が消費されます。これは、TRXを凍結することで生成できます。
 
-#### (1）Three transfer forms
+#### (1）三つの送金形式
 
-**● Basic transfer (between TRON accounts)**
+**● 基本的な送金(TRONアカウントの間)**
 
-Basic transfer refers to token transfer between two independent TRON accounts, which can be done by entering the recipient’s address and the transfer amount. 
+　基本的な送金とは、2つの独立したTRONアカウント間のトークンの送金を指します。これは、受信者のアドレスと送金額を入力することで実行できます。
 
-**● Transfer from an exchange to a TRON account (wallet address)**
+**● 取引所からTRONアカウント（ウォレットアドレス）への送金**
 
-This refers to TRX withdrawal from an exchange to a Tron account, which can be done by entering the TRON wallet address and the withdrawal amount.
+　これは、取引所からTRONアカウントへのTRXの引き出しを指します。これは、TRONウォレットアドレスと引き出し金額を入力することで実行できます。
 
-**● Transfer from a TRON account (wallet address) to an exchange**
+**● TRONアカウント（ウォレットアドレス）から取引所への送金**
 
-This can be done by entering the exchange address and deposit amount. 
+これは、交換アドレスと預金金額を入力することで実行できます。
 
-#### （2）Various ways to transfer
+#### （2）他の送金方法
 
-To better meet users’ needs for transferring and receiving tokens, TRON wallets provide direct transfer, address book transfer, and QR code transfer.  
+　トークンの送受信に関するユーザーのニーズにより適切に対応するために、TRONウォレットには、直接転送、アドレス帳転送、QRコード転送が用意されています。
 
-**●Direct transfer**
+**●直接伝送**
 
-Direct transfer refers to transfers among Tron addresses, where users need to enter the recipient’s TRON account and transfer amount. 
+　直接送金とは、Tronアドレス間での送金を指します。ユーザーは受信者のTRONアカウントと送金金額を入力する必要があります。 
 
-**● Address book transfer**
+**● アドレス帳の転送**
 
-The address book is like a contact list on our mobile phone. After an address book is created, you can choose the TRON address from the book to transfer tokens to. It can come really handy if you have a frequent recipient, and reduce risk of entering a wrong account. 
+　アドレス帳は、携帯電話の連絡先リストのようなものです。アドレス帳が作成されたら、トークンを転送する先の帳からTRONアドレスを選択できます。受信者が多い場合に非常に便利で、間違ったアカウントを入力するリスクを軽減できます。
 
-**● QR code transfer**
+**● QRコード送金**
 
-TRX transfer can be done through scanning the recipient’s QR code. 
-Additionally, recent recipients will be found in “Recent”. By clicking on “Recent”, you will see the most recent TRON address you made a transfer to on the transfer page. This comes in handy if you have a frequent recipient. 
+　TRX転送は、受信者のQRコードをスキャンすることで実行できます。
+さらに、最近の受信者は「Recent」にあります。「Recent」をクリックすると、転送ページに転送先の最新のTRONアドレスが表示されます。これは、頻繁に受信者がいる場合に便利です。
 
-Transfer through an address book, scanning QR codes, or recent transfer can all help prevent errors of manual typing and the loss incurred. 
+　アドレス帳を介した転送、QRコードのスキャン、または最近の転送はすべて、手動入力のエラーや発生した損失を防ぐのに役立ちます。
 
-**● Transfer with observe wallets and cold wallets**
+**● observeウォレットとcoldウォレットでの送金**
 
-If a wallet always has a large amount of deposit and often needs to transfer, transferring through the combination of an observe wallet and cold wallet is recommended to ensure the safety of assets. A cold wallet can isolate a user's private key and mnemonic phrase from the internet, which resembles a mobile phone without any connection, to almost 100 percent ensure the safety of the assets. An observe wallet is a wallet that can observe the changes of assets in another address. It doesn’t require the import of the private key. Users only need to input the account or public key. It can help users to check the transaction information. 
+ウォレットに常に大量の入金があり、頻繁に転送する必要がある場合は、資産の安全性を確保するために、observeウォレットとcoldウォレットの組み合わせによる転送が推奨されます。coldウォレットは、ユーザーの秘密キーとニーモニックフレーズをインターネットから分離できます。これは、接続のない携帯電話に似ており、資産の安全をほぼ100％保証します。observeウォレットは、別のアドレスの資産の変更を監視できるウォレットです。秘密鍵をインポートする必要はありません。ユーザーはアカウントまたは公開鍵を入力するだけで済みます。ユーザーが取引情報を確認するのに役立ちます。
 
-To transfer, users need to operate in the observe wallet. What’s different from a normal transfer is that a QR code will pop up when granting permission. Then, scan the QR code with the cold wallet and another QR code will be generated. Scan the QR code with the observe wallet and complete the entire process.
+　転送するには、ユーザーはobserveウォレットで操作する必要があります。通常の転送との違いは、許可を与えるとQRコードがポップアップすることです。次に、coldウォレットでQRコードをスキャンすると、別のQRコードが生成されます。observeウォレットでQRコードをスキャンし、プロセス全体を完了します。
+
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394653277.png "节点钱包")
 
-### Receive TRX
+### TRX受信
 
-In a TRON wallet, users can receive tokens from others and withdraw tokens from an exchange.
+　TRONウォレットでは、ユーザーは他のユーザーからトークンを受け取り、取引所からトークンを引き出すことができます。
 
-**● Address**
+**● アドレス**
 
-On the Receive page, users can copy their address with one click to withdraw tokens from an exchange or receive tokens from others in a safe and easy way. 
+　受信ページでは、ユーザーはワンクリックでアドレスをコピーして、取引所からトークンを引き出したり、安全かつ簡単な方法で他のユーザーからトークンを受信したりできます。 
 
-**● QR code**
+**● QRコード**
 
-Similar to how users can make transfers by scanning the recipient QR code, they can also receive tokens by having token senders scan their QR code. 
+　ユーザーが受信者のQRコードをスキャンして転送を行う方法と同様に、トークンの送信者にQRコードをスキャンさせることでトークンを受け取ることもできます。 
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597395164194.png "节点钱包")
 
 
-### Vote for TRON Nodes 
+### TRONノードに投票する 
 
-Super representatives: Super representatives are responsible for producing blocks and approving transactions. In return, they can receive voting and block rewards and vote for proposals raised by the TRON committee. 
+スーパー担当者：スーパー担当者は、ブロックの作成とトランザクションの承認を担当します。その見返りに、彼らは投票を受け取り、報酬をブロックし、TRON委員会によって提起された提案に投票できます。
 
-Super partner: eligible for voting rewards. 
+スーパーパートナー：投票報酬の対象です。
 
-Voter: TRON community members who participate in voting. 
-Reward distribution ratio: the percentage of the rewards for voters out of the total rewards gained by the super representatives and super partners. 
+投票者：投票に参加するTRONコミュニティメンバー。
+報酬分配率：スーパー代表者とスーパーパートナーが獲得した報酬の合計のうち、有権者への報酬の割合。
+
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394717051.png "节点钱包")
 
-#### 1、Voting Rules on TRON
+#### 1、TRONの投票ルール
 
-Each user can cast one or multiple votes for multiple candidates.
+　各ユーザーは、複数の候補者に1つまたは複数の票を投じることができます。
 
-Before voting, the voter needs to freeze a certain amount of TRX to gain TRON Power (TP). Frozen TRX won’t go into circulation and cannot be transferred. 
+投票する前に、有権者はTRONパワー（TP）を獲得するために一定量のTRXを凍結する必要があります。冷凍TRXは流通せず、転送できません。
 
-TP is calculated in the following way: freeze 1 TRX to get 1 TP, and 1 TP is 1 vote.
+TPは次の方法で計算されます。1TRXをフリーズして1 TPを取得し、1 TPは1票です。
 
-One voting round lasts for 6 hours. The voting results and node list are updated on 0:00, 6:00, 12:00, and 18:00 (UTC) every day. The votes cast will be updated in the next voting round. 
-
-#### 2、Vote Withdrawal on TRON
-
-Users can withdraw all or part of their votes from a node. Only tokens that have been freezed for at least 3 days can be unfreezed. Frozen tokens can be unfreezed for Energy or bandwidth based on the resource they have been freezed to obtain. Note that all TRX freezed to obtain that resource should have been freezed for at least 3 days.
-
-After unfreezing, all TP and resources (bandwidth or Energy) gained will be removed. 
-
-After unfreezing, the TP which has been used for voting will also be removed. You need to re-freeze TRX for TP to vote again so that the votes you have cast won’t be affected
+　1回の投票は6時間続きます。投票結果とノードリストは、毎日0：00、6：00、12：00、18：00（UTC）に更新されます。投票の票は次の投票で更新されます。 
 
 
-#### 3、Voting Rewards on TRON
+#### 2、TRON投票の撤回
 
-In the TRON network, any TRX holder can apply to be an SR candidate and are likely to become a super representative or a super partner. Each TRX holder can vote for SR candidates. The top 27 most-voted candidates become super representatives, and the 28-127th become super partners. SRs are responsible for producing blocks and packing transactions, and can receive corresponding voting and block rewards in return. SR candidates do not produce blocks or pack transactions, and are only eligible for voting rewards.
+　ユーザーは、投票のすべてまたは一部をノードから取り消すことができます。3日間以上フリーズされたトークンのみ、フリーズ解除できます。凍結されたトークンは、取得のためにフリーズされているリソースに基づいて、エネルギーまたは帯域幅に対してフリーズ解除できます。そのリソースを取得するためにすべてのTRXがフリーズされていることに注意してください。少なくとも3日間フリーズされている必要があります。
 
-The reward distribution ratio for voters varies depending on the super representative (SR).
-
-Calculation of rewards:
-
-Theoretically, TRON SRs produce a total of 28792 blocks every day. Each SR produces 1066 blocks daily. The SR commission ratio of TRON is 20%. Block rewards for each SR are 16. Voting rewards are 160. Total votes are 22,382,488,418 (real-time).
-
-SR daily total reward = (blocks produced by the SR per day * reward for each block + total blocks produced per day  * votes received by the SR / total votes)
-
-SR commission reward = SR daily total reward * SR commission ratio
-
-Reward distributed to voters = SR daily total reward - SR commision reward
+　解凍後、獲得したすべてのTPとリソース（帯域幅またはエネルギー）は削除されます。
+解凍後、投票に使用してい
 
 
-#### 4、How to vote
+#### 3、TRONの投票報酬
 
-Vote through TRON wallets
+　TRONネットワークでは、どのTRX保有者もSR候補に応募でき、スーパー代理人またはスーパーパートナーになる可能性があります。各TRX保有者はSR候補に投票できます。最も投票数の多い上位27人の候補者がスーパー代表となり、28〜127人がスーパーパートナーになります。 SRはブロックの作成とトランザクションのパッキングを担当し、対応する投票とブロック報酬を受け取ることができます。SR候補は、ブロックまたはパックトランザクションを生成せず、投票報酬のみを受け取る資格があります。
 
-On the voting page in a TRON wallet, select the candidate to vote for and the vote amount. This is the easiest and quickest way to cast a vote.
+　有権者の報酬分配率は、スーパー代表（SR）によって異なります。
+
+報酬の計算方法:
+
+　理論的には、TRON SRは毎日合計28792ブロックを生成します。各SRは、毎日1066ブロックを生成します。TRONのSR手数料率は20％です。各SRのブロック報酬は16です。投票報酬は160です。投票総数は22,382,488,418（リアルタイム）です。
+SRの1日の合計報酬=（SRによって1日あたりに生成されたブロック*各ブロックの報酬+ 1日あたりに生成されたブロックの合計*SRによって受信された票/総票数）
+SRコミッション報酬= SR日次総報酬*SRコミッション比率
+有権者に分配される報酬= SR日次総報酬-SRコミッション報酬
+
+
+#### 4、どのように投票しますか
+
+TRONウォレットを通じて投票する
+
+　TRONウォレットの投票ページで、投票する候補者と投票額を選択します。これが最も簡単で迅速な投票方法です。
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394809817.png "节点钱包")
 
-Vote on the website
+ウェブサイトで投票する
 
-Go to https://Tronscan.io/, select the node you want to vote for on the voting page and click on “vote”.
+https://Tronscan.io/をクリックして、投票ページで投票したいノードを選択し、「投票」をクリックします。 
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394826684.png "节点钱包")
 
-### Token Collection on TRON
+### TRONのトークンコレクション
 
-The asset collection function supported by the underlying layer of TRON is a piece of good news for multi-account users. Its essence is making transfers from multiple accounts. When users have multiple TRON accounts and each account has a small amount of tokens, the asset collection function can be used to group the assets into one account, which can facilitate asset management.
+　TRONの基礎となるレイヤーでサポートされる資産収集機能は、マルチアカウントユーザーにとって朗報です。その本質は、複数のアカウントから送金することです。ユーザーに複数のTRONアカウントがあり、各アカウントに少量のトークンがある場合、資産収集機能を使用して、資産を1つのアカウントにグループ化できます。これにより、資産管理が容易になります。
 
-Users need to import all accounts into the wallet. If all accounts share the same password, the user only needs to grant the permission once; otherwise, the permission needs to be granted multiple times.
+　ユーザーはすべてのアカウントをウォレットにインポートする必要があります。すべてのアカウントが同じパスワードを共有している場合、ユーザーは一度だけ権限を付与する必要があります。それ以外の場合は、許可を複数回付与する必要があります。
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394842415.png "节点钱包")
 
-### DApp Whitelist for TRON
+### TRONのDAppホワイトリスト
 
-The whitelist function provides great convenience for users to better take advantage of DApps. Normally, when exploring DApps on TRON, users need to enter the password every time they interact with smart contracts. The whitelist feature is to perform authorization without having to input the password for specific smart contract operations in the DApp. Users only need to enter the password once when the whitelist function is turned on.
+　ホワイトリスト機能は、DAppをより効果的に利用するための便利な機能をユーザーに提供します。通常、TRONでDAppを探索する場合、ユーザーはスマートコントラクトを操作するたびにパスワードを入力する必要があります。ホワイトリスト機能は、DAppで特定のスマートコントラクト操作のパスワードを入力せずに認証を実行することです。ユーザーは、ホワイトリスト機能がオンになっているときに一度だけパスワードを入力する必要があります。
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394855725.png "节点钱包")
 
-### TRON Explorer
+### TRON開発者
 
-Blockchain explorer is the main window for looking up blockchain information, and the content recorded in each block can be consulted on the blockchain explorer.
+　ブロックチェーンエクスプローラーはブロックチェーン情報を検索するためのメインウィンドウであり、各ブロックに記録されたコンテンツはブロックチェーンエクスプローラーで参照できます。
 
-Currently, the commonly used TRON explorer is TronSCAN. Tronscan.io is the first block explorer based on TRON. It not only includes some basic functions of a block explorer, such as search and query transactions, accounts, blocks, nodes, and smart contracts, as well as data gathering and queries on the chain, but also supports token creation. Meanwhile, TronSCAN also has a built-in web wallet and Bancor-based DEX, which enriches the application scenarios of TronSCAN.
+　現在、一般的に使用されているTRONエクスプローラーはTronSCANです。 Tronscan.ioは、TRONに基づく最初のブロックエクスプローラーです。検索とクエリのトランザクション、アカウント、ブロック、ノード、スマートコントラクトなどのブロックエクスプローラーのいくつかの基本的な機能だけでなく、チェーンでのデータ収集とクエリだけでなく、トークンの作成もサポートします。一方、TronSCANには、内蔵WebウォレットとBancorベースのDEXもあり、TronSCANのアプリケーションシナリオを充実させています。
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394876055.png "节点钱包")
 
-### TRON Wallet Order Adjustment
+### TRONウォレットの注文調整
 
-Many users have multiple TRON accounts, and the wallet order adjustment function allows users to put the most frequently used wallets in the first places simply by dragging, so that they can switch wallets and manage their assets more conveniently. 
+　多くのユーザーは複数のTRONアカウントを持っています。ウォレットの注文調整機能により、最も頻繁に使用されるウォレットをドラッグするだけで最初に配置できるため、ウォレットを切り替えて資産をより簡単に管理できます。
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394889723.png "节点钱包")
 
 
-### TRON Testnet
+### TRONテストネット
 
-The TRON test network is relative to the mainnet. The TRON mainnet refers to a blockchain network that is officially launched and can operate independently, which has real economic value. The TRON testnet is the predecessor of the mainnet and the two have similar functions. TRON testnet is mainly used for swift project iterations and early participation of community members. Community members and supporters of the TRON project participate in various processes on the testnet such as verification and mining, and give feedback; the technical team continues to make corrections and improvements to the mainnet.
+　TRONテストネットワークはメインネットを基準にしています。TRONメインネットとは、正式に立ち上げられ、独自に運用できるブロックチェーンネットワークのことで、本当の経済的価値があります。TRONテストネットはメインネットの前身であり、2つは同様の機能を備えています。TRONテストネットは主にプロジェクトの迅速な反復とコミュニティメンバーの早期参加に使用されます。TRONプロジェクトのコミュニティメンバーとサポーターは、検証やマイニングなどのテストネット上のさまざまなプロセスに参加し、フィードバックを提供します。技術チームはメインネットの修正と改善を続けています。
 
-The commonly used Tron testnet is TronLIN, which supports the Tron testnet and SUN Network. It is in stable operation and can be used to support project development and iterations, as well as early user participation.
+　一般的に使用されるTronテストネットはTronLINで、TronテストネットとSUNネットワークをサポートしています。安定した運用状態にあり、プロジェクトの開発と反復、およびユーザーの早期参加をサポートするために使用できます。
 
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394906050.png "节点钱包")
 
-Nile testnet (http://nileex.io) is also a good option, whose code version is consistent with Tron mainnet.  
+　Nileテストネット（http://nileex.io）も良いオプションであり、そのコードバージョンはTronメインネットと一致しています。   
 
-### Where to get TRON updates?
+### TRON最新情報はどこで見える?
 
-Tron’s official channels include Twitter @Tronfoundation and @justinsunTron.
+　Tronの公式チャンネルには、ツイッター@Tronfoundationと@justinsunTronがあります。
 
-Users can also get Tron-related information from Tron wallets, like TokenPocket. TokenPocket provides a one-stop reading experience for users, including the latest updates, flash news and articles about Tron.
+ユーザーは、TokenPocketなどのTronウォレットからTron関連の情報を取得することもできます。TokenPocketは、Tronに関する最新の更新、フラッシュニュース、記事など、ワンストップの読み取りエクスペリエンスをユーザーに提供します。
 
 ![节点钱包 示意图](https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597394921860.png "节点钱包")
 
 
-### Explore TRON DApps
+### TRON DAppsの詳細
 
-Tron Wallet is the entrance for TRON community users to TRON DApps, which can meet users' various needs for applications. DApp is the abbreviation of Decentralized Application, which refers to an application developed on blockchains.
+　Tron WalletはTRONコミュニティユーザーのTRON DAppsへの入り口であり、アプリケーションに対するユーザーのさまざまなニーズを満たすことができます。DAppは、ブロックチェーン上で開発されたアプリケーションを指すDecentralized Applicationの略です。
 
-Thanks to its excellent performance, security and low cost, TRON public chain has attracted hundreds of community developers to develop, deploy and operate on-chain DApps on it. As of Q1 2020, the total number of DApps on TRON has exceeded 700, with more than 230,000 active users.
+　TRONパブリックチェーンは、その優れたパフォーマンス、セキュリティ、および低コストのおかげで、何百ものコミュニティ開発者を魅了して、チェーン上のDAppを開発、展開、および運用しています。2020年第1四半期の時点で、TRON上のDAppの総数は700を超え、23万人を超えるアクティブユーザーがいます。
 
-### The Future of TRON Wallets
 
-Over the past two years, we saw that Tron has worked all the way from building the public chain infrastructure, expanding the ecosystem for the public chain, to developing public-chain based applications. The Tron team holds to the principle of patience and making small but accumulative achievements in the blockchain industry. With hard work, TRON has already gradually outpaced most public chain teams. The future of TRON lies not only in the further improvement of public chain performance, isomorphic and heterogeneous cross-chain, as well as security and privacy enhancement. TRON focuses more on connecting internet products and blockchain services, to build a true Internet of value. 
+### TRONウォレットの未来
 
-### TRON Developers and Wallets
+　過去2年間で、Tronがパブリックチェーンインフラストラクチャの構築からパブリックチェーンのエコシステムの拡張、パブリックチェーンベースのアプリケーションの開発まで、すべての作業を行ってきたことがわかりました。Tronチームは、忍耐の原則を堅持し、ブロックチェーン業界で小さな成果を積み上げてきました。TRONは、懸命な努力により、すでにほとんどのパブリックチェーンチームを徐々に上回っています。TRONの未来は、パブリックチェーンのパフォーマンス、同型と異種のクロスチェーンのさらなる改善だけでなく、セキュリティとプライバシーの強化にあるだけではありません。TRONは、真の価値あるインターネットを構築するために、インターネット製品とブロックチェーンサービスの接続に重点を置いています。
 
-Currently, Tron is a public chain worthy more attention from developers. Based on its good performance and ecosystem, many DApps with high volume of users and transactions have emerged on Tron. TRON’s strong consensus mechanism makes it perform better in TPS than Bitcoin and Ethereum. High TPS guarantees low computation latency, which enables its transaction speed to be on par with existing payment systems. Due to the scalability of the Tron network and its efficient smart contracts, TRON allows various applications to be deployed on it. Tron adopts a design of low computing cost, making it easier for different applications to expand their user base while maintaining its commercial competitiveness. 
+### TRON開発者とウォレット
 
-At present, in terms of contract and transaction experience, TRON has a large advantage over ETH. At the same time, the entry barrier and contract development threshold for new TRON users is almost zero. Tron has an advantage over EOS as its TVM supports Solidity. In order for developers to better use Tron mainnet, members of the Tron community hereby prepared a guide for TRON developers, providing a complete toolkit covering contracts development, testing, deployment and interfaces. Please check TRON Developer Center at https ://cn.developers.Tron.network/. 
+現在、TRONは開発者からもっと注目に値するパブリックチェーンです。その優れたパフォーマンスとエコシステムに基づいて、大量のユーザーとトランザクションを持つ多くのDAppがTronに登場しました。TRONの強力なコンセンサスメカニズムにより、TPSではビットコインやイーサリアムよりもパフォーマンスが向上します。TPSが高いと、計算の待ち時間が短くなることが保証されます。これにより、トランザクション速度を既存の支払いシステムと同等にすることができます。TRONネットワークのスケーラビリティとその効率的なスマートコントラクトにより、TRONはさまざまなアプリケーションをそのネットワークに展開できるようにします。Tronは低コンピューティングコストの設計を採用しているため、さまざまなアプリケーションが商用ベースの競争力を維持しながらユーザーベースを拡大しやすくなっています。 
 
-Meanwhile, TRON wallets also provide tools for developers to facilitate the building of the TRON ecosystem. 
+　現在、プロトコルと取引経験の点で、TRONはETHに比べて大きな優位性があります。同時に、新規TRONユーザーの参入障壁とプロトコル開発のハードルはほぼゼロです。Tronは、そのTVMが流動性をサポートしているため、EOSよりも優れています。開発者がTronメインネットをより適切に使用できるように、TronコミュニティのメンバーはTRON開発者向けのガイドを用意し、プロトコルの開発、テスト、展開、およびインターフェースを網羅する完全なツールキットを提供しました。 https://cn.developers.Tron.network/にあるTRON開発者センターを確認してください。
 
-Take TokenPocket wallet as an example. TP wallet provides Android and iOS mobile SDKs for TRON developers. Developers can use SDK to call TP wallet to authorize login to wallet account and perform contract functions. TP Wallet's internal Webview has a built-in TronWeb object. Users can directly enter the URL in the Dapp browser in the wallet to develop and test various DAPPs developed based on TRON, and perform functions such as invoking authorized signatures in the Dapp browser in the TP wallet.
+　一方、TRONウォレットは、開発者がTRONエコシステムの構築を容易にするためのツールも提供します。
 
-In short, TRON, thanks to its good performance and free daily resources, provides the possibility for the birth and mass use of more sophisticated DApps. At the same time, wallets provide TRON developers with a handy development and debugging tool. Both combined contribute to a better public chain for applications.
+　TokenPocketウォレットを例にとります。TPウォレットは、TRON開発者向けにAndroidとiOSモバイルSDKを提供します。開発者はSDKを使用してTPウォレットを呼び出し、ウォレットアカウントへのログインを承認し、プロトコル機能を実行できます。TPウォレットの内部　　Webビューには、組み込みのTronWebオブジェクトがあります。ユーザーは、ウォレットのDappブラウザーにURLを直接入力して、TRONに基づいて開発されたさまざまなDAPPを開発、テストし、TPウォレットのDappブラウザーで承認済み署名を呼び出すなどの機能を実行できます。
 
-Related wallet protocols and SDK links:
+　要するに、TRONはその優れたパフォーマンスと無料の毎日のリソースのおかげで、より洗練されたDAppの誕生と大量使用の可能性を提供します。同時に、ウォレットはTRON開発者に便利な開発とデバッグツールを提供します。両方を組み合わせると、アプリケーションのパブリックチェーンが向上します。
+
+
+関連ウォレットプロトコルとSDKリンク:
 
 https://github.com/TP-Lab/TokenPocket-Protocol
 
@@ -391,9 +393,9 @@ https://github.com/TP-Lab/tp-js-sdk
 
 
 
-## TRON Wallets
+## TRONウォレット
 
-### Decentralized wallets
+### 分散型ウォレット
 
 <!-- 1 -->
 
@@ -449,7 +451,7 @@ https://github.com/TP-Lab/tp-js-sdk
 <a class="tp-custom" href="https://www.trustwallet.com" target="_blank">
     <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/TrustWallet.png"/>
     <div class="tp-content">
-        <h5>Trust Wallet</h5>
+        <h5>Trustウォレット</h5>
         <p>https://www.trustwallet.com</p>
     </div>
 </a>
@@ -458,7 +460,7 @@ https://github.com/TP-Lab/tp-js-sdk
 <a class="tp-custom" href="https://www.huobiwallet.com" target="_blank">
     <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/HuobiWallet.png"/>
     <div class="tp-content">
-        <h5>Huobi Wallet</h5>
+        <h5>フォビウォレット（Huobi）</h5>
         <p>https://www.huobiwallet.com</p>
     </div>
 </a>
@@ -481,7 +483,7 @@ https://github.com/TP-Lab/tp-js-sdk
 <a class="tp-custom" href="http://www.mathwallet.org" target="_blank">
     <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/MathWallet.png"/>
     <div class="tp-content">
-        <h5>Math Wallet</h5>
+        <h5>Mathウォレット</h5>
         <p>http://www.mathwallet.org</p>
     </div>
 </a>
@@ -546,7 +548,7 @@ https://github.com/TP-Lab/tp-js-sdk
 
 </main>
 
-### Hardware wallets
+### ハードウェアウォレット
 <!-- 1 -->
 <main class="tp-main">
 <!-- 库神 -->
@@ -562,13 +564,13 @@ https://github.com/TP-Lab/tp-js-sdk
 <a class="tp-custom" href="https://www.ledger.com" target="_blank">
     <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/Ledger.png"/>
     <div class="tp-content">
-        <h5>Ledger</h5>
+        <h5>Ledgerウォレット</h5>
         <p>https://www.ledger.com</p>
     </div>
 </a>
 </main>
 
-### Plug-in wallets
+### プラグインウォレット
 
 <!-- 1 -->
 <main class="tp-main">
@@ -585,7 +587,7 @@ https://github.com/TP-Lab/tp-js-sdk
 <a class="tp-custom" href="https://chrome.google.com/webstore/detail/guildwallet/nanjmdknhkinifnkgdcggcfnhdaammmj" target="_blank">
     <img class="tp-logo" src="https://tp-upload.cdn.bcebos.com/banner/tokenpocket-1597391720047.png"/>
     <div class="tp-content">
-        <h5>GuildWallet</h5>
+        <h5>Guildウォレット</h5>
         <p>https://chrome.google.com/webstore/detail/guildwallet/nanjmdknhkinifnkgdcggcfnhdaammmj</p>
     </div>
 </a>
@@ -596,7 +598,7 @@ https://github.com/TP-Lab/tp-js-sdk
 <a class="tp-custom" href="https://chrome.google.com/webstore/detail/math-wallet/afbcbjpbpfadlkmhmclhkeeodmamcflc" target="_blank">
     <img class="tp-logo" src="https://tp-statics.tokenpocket.pro/logo/MathWallet.png"/>
     <div class="tp-content">
-        <h5>Math Wallet</h5>
+        <h5>Mathウォレット</h5>
         <p>https://chrome.google.com/webstore/detail/math-wallet/afbcbjpbpfadlkmhmclhkeeodmamcflc
 </p>
     </div>
@@ -632,36 +634,36 @@ https://github.com/TP-Lab/tp-js-sdk
 ">https://help.mytokenpocket.vip/hc/zh-cn/sections/900000370926-TRON%E9%92%B1%E5%8C%85%E9%97%AE%E9%A2%98
 </a> -->
 
-### Contact TRON
+### TRONと連絡する
 
-TRON website：https://tron.network/
+TRON公式ホームページ：https://tron.network/
 
-Wechat official account：波场TRON
+Wechat公式アカウント：波场TRON
 
 Weibo：波场TRON区块链
 
-Twitter: https://twitter.com/Tronfoundation
+ツイッター: https://twitter.com/Tronfoundation
 
-Telegram: https://t.me/tronnetworkEN
+テレグラム: https://t.me/tronnetworkEN
 
 GitHub: https://github.com/tronprotocol
 
 Medium: https://medium.com/tron-foundation
 
 
-### Copyright Statement
+### 著作権について
 
-#### The Present, Past and Future of TRON Wallet, also known as the TRON Wallet Mini White Book is written by TokenPocket in collaboration with the TRON official and TokenPocket community volunteers. It introduces in detail current examples of the close integration of TRON wallets with the TRON ecosystem. It is currently the most detailed material on Tron wallets. 
+#### TRONウォレットの現在、過去と未来――TRONウォレットミニホワイトブックは、TokenPocketがTRONの公式とTokenPocketコミュニティボランティアと共同で作成したものです。TRONウォレットとTRONエコシステムとの密接な統合の現在の例を詳細に紹介します。これは現在、Tronウォレットで最も詳細な資料です。 
 
 
-##### 1. The copyright of this book belongs to TokenPocket.
+##### 1.この本の著作権はTokenPocketに帰属します。
 
-##### 2.With the consent of the author, non-profit quotations are allowed for the work, and it is necessary to indicate the source and author to show respect to the author's work.
+##### 2.著者の同意を得て、作品の非営利的な引用が許可されています。著者の作品を尊重するように、出典と著者を示す必要があります。
 
-##### 3.Source: https://tp-lab.github.io/BlockchainGuide-TRON-EN/; author: TokenPocket.
+##### 3.ソース: https://tp-lab.github.io/BlockchainGuide-TRON-EN/; 著者: TokenPocket.
 
-##### 4.Reposting without permission is strictly prohibited. For illegal reposting, TokenPocket and the author/translator reserve the right to pursue legal actions.
+##### 4.無断転載を固く禁じます。違法な再投稿については、TokenPocketおよび作成者/翻訳者が法的措置を追求する権利を留保します。
 
-##### 5.The right to modify, update, and final interpretation of this book and statement belong to TokenPocket.
+##### 5.この本と声明の修正、更新、および最終解釈の権利は、TokenPocketに帰属します。
 
-##### 6.The right to interpret the above statement belongs to TokenPocket.
+##### 6.上記のステートメントを解釈する権利は、TokenPocketに属します。
